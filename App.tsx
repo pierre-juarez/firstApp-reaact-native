@@ -1,12 +1,6 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {HelloWorldScreen} from './src/screens/HelloWorldScreen';
 
-const App = () => {
-  return (
-    <View style={{flex: 1, justifyContent: 'center'}}>
-      <Text style={{fontSize: 45, textAlign: 'center'}}>Hola mundo</Text>
-    </View>
-  );
+export const App = () => {
+  return <HelloWorldScreen />;
 };
-
-export default App;
